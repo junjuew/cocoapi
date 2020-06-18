@@ -1,0 +1,2 @@
+recursive-include common *.cpp *.c *.h
+recursive-include pycocotools *.py *.c *.pyx
