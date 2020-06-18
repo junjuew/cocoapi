@@ -24,5 +24,6 @@ jobs:
                   TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
               run: |
                   cd PythonAPI
-                  python setup.py build_ext sdist
+                  python setup.py build_ext
+                  python setup.py sdist
                   twine upload dist/*

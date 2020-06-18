@@ -39,6 +39,6 @@ setup(
         'cython>=0.27.3',
         'numpy'
     ],
-    version='2.0.0.3',
+    version='2.0.0.7',
     ext_modules=ext_modules
 )
